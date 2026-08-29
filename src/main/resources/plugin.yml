@@ -1,0 +1,10 @@
+name: LobbySystem
+version: 1.0.0
+main: me.northcraft.lobbySystem.LobbySystem
+api-version: '1.20'
+
+commands:
+  setspawn:
+    description: Setzt den Spawn-Punkt der Lobby
+    permission: lobby.admin
+    usage: /setspawn
